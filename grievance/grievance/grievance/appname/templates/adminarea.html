@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Admin_area</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  .custab{
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5% 0;
+    box-shadow: 3px 3px 2px #ccc;
+    transition: 0.5s;
+    }
+.custab:hover{
+    box-shadow: 3px 3px 0px transparent;
+    transition: 0.5s;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="adminarea.html">Home</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="/adminarea">Complaint</a></li>
+      <li><a href="feedback_admin_view.html">Feedback</a></li>
+      <li><a href="home.html">Logout</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
+    <div class="row col-md-8 col-md-offset-2 custyle">
+    <table class="table table-striped custab">
+    <thead>    
+        <tr>
+            <th>S.No</th>
+            <th>Complaint</th>
+            <th>Parent ID</th>
+            <th class="text-center">Action</th>
+        </tr>
+    </thead>
+            <tr>
+                <td>1</td>
+                <td>News</td>
+                <td>News Cate</td>
+                <td class="text-center"><a class='btn btn-info btn-xs' href="complaint_form_admin.html"><span class="glyphicon glyphicon-edit"></span> Edit</a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Products</td>
+                <td>Main Products</td>
+                <td class="text-center"><a class='btn btn-info btn-xs' href="complaint_form_admin.html"><span class="glyphicon glyphicon-edit"></span> Edit</a></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Blogs</td>
+                <td>Parent Blogs</td>
+                <td class="text-center"><a class='btn btn-info btn-xs' href="complaint_form_admin.html"><span class="glyphicon glyphicon-edit"></span> Edit</a></td>
+            </tr>
+    </table>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Feedback_form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="complaint_form.html">Home</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="complaint_form.html">Complaint</a></li>
+      <li class="active"><a href="feedback_form.html">Feedback</a></li>
+      <li><a href="home.html">Logout</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
+
+  <form class="form-horizontal">
+<fieldset>
+	<h2>Feedback Form</h2>
+	<p>We would love to hear your thoughts, concerns or problems with anything so we can improve!</p>
+	
+	
+							<div class="col-sm-offset-1"></div>
+							
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="name">Feedback Type</label>  
+  <div class="col-md-5">
+	<div class="form-multiple-column" data-columncount="3" data-component="radio">
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_3_0" name="q3_feedbackType" value="Comments">
+              <label id="label_input_3_0" for="input_3_0"> Comments </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_3_1" name="q3_feedbackType" value="Bug Reports">
+              <label id="label_input_3_1" for="input_3_1"> Bug Reports </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_3_2" name="q3_feedbackType" value="Questions">
+              <label id="label_input_3_2" for="input_3_2"> Questions </label>
+            </span>
+          </div>
+     </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="name">Describe Feedback: </label>  
+  <div class="col-md-5">
+  <textarea id="input_4" class="form-control form-textarea validate[required] form-validation-error" name="q4_describeFeedback" cols="40" rows="6" data-component="textarea" required=""></textarea>
+     </div>
+</div>
+
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="sla">First Name:</label>
+  <div class="col-md-5">
+    <input id="number" name="ID" type="text" placeholder="First Name" class="form-control input-md" required="">
+  </div>
+</div>
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="sla">Last Name:</label>
+  <div class="col-md-5">
+    <input id="number" name="ID" type="text" placeholder="Last Name" class="form-control input-md" required="">
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="name">Email ID:</label>  
+  <div class="col-md-5">
+  <input id="number" name="ID" type="text" placeholder="Email" class="form-control input-md" required="">
+     </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="sla">Department:</label>
+  <div class="col-md-5">
+    <select id="Department" name="Department" class="form-control">
+      <option value="1">TESTING</option>
+      <option value="2">DEVELOPER</option>
+    </select>
+  </div>
+</div>
+
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="name"></label>  
+  <div class="col-md-5">
+ <input type="submit" value="Send" class="btn btn-primary">
+<input type="submit" value="Reset" class="btn btn-success">
+     </div>
+</div>
+
+
+
+</fieldset>
+</form>
+</div></div>
+</div>
+
+</body>
+</html>
